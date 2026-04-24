@@ -1,0 +1,20 @@
+C:\Users\Comwp ODG\source\repos\ScriptScripter\ScriptScripter\bin\Debug\ScriptScripter.exe.config
+C:\Users\Comwp ODG\source\repos\ScriptScripter\ScriptScripter\bin\Debug\ScriptScripter.exe
+C:\Users\Comwp ODG\source\repos\ScriptScripter\ScriptScripter\bin\Debug\ScriptScripter.pdb
+C:\Users\Comwp ODG\source\repos\ScriptScripter\ScriptScripter\obj\Debug\ScriptScripter.Form1.resources
+C:\Users\Comwp ODG\source\repos\ScriptScripter\ScriptScripter\obj\Debug\ScriptScripter.Properties.Resources.resources
+C:\Users\Comwp ODG\source\repos\ScriptScripter\ScriptScripter\obj\Debug\ScriptScripter.csproj.GenerateResource.cache
+C:\Users\Comwp ODG\source\repos\ScriptScripter\ScriptScripter\obj\Debug\ScriptScripter.csproj.CoreCompileInputs.cache
+C:\Users\Comwp ODG\source\repos\ScriptScripter\ScriptScripter\obj\Debug\ScriptScripter.exe
+C:\Users\Comwp ODG\source\repos\ScriptScripter\ScriptScripter\obj\Debug\ScriptScripter.pdb
+C:\Users\Comwp ODG\source\repos\ScriptScripter\ScriptScripter\obj\Debug\ScriptScripter.csproj.AssemblyReference.cache
+D:\source\repos\ScriptScripter\ScriptScripter\bin\Debug\ScriptScripter.exe.config
+D:\source\repos\ScriptScripter\ScriptScripter\bin\Debug\ScriptScripter.exe
+D:\source\repos\ScriptScripter\ScriptScripter\bin\Debug\ScriptScripter.pdb
+D:\source\repos\ScriptScripter\ScriptScripter\obj\Debug\ScriptScripter.csproj.AssemblyReference.cache
+D:\source\repos\ScriptScripter\ScriptScripter\obj\Debug\ScriptScripter.Form1.resources
+D:\source\repos\ScriptScripter\ScriptScripter\obj\Debug\ScriptScripter.Properties.Resources.resources
+D:\source\repos\ScriptScripter\ScriptScripter\obj\Debug\ScriptScripter.csproj.GenerateResource.cache
+D:\source\repos\ScriptScripter\ScriptScripter\obj\Debug\ScriptScripter.csproj.CoreCompileInputs.cache
+D:\source\repos\ScriptScripter\ScriptScripter\obj\Debug\ScriptScripter.exe
+D:\source\repos\ScriptScripter\ScriptScripter\obj\Debug\ScriptScripter.pdb
