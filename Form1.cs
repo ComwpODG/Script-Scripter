@@ -102,9 +102,24 @@ namespace ScriptScripter
         {
             return input
                 .Replace(Environment.NewLine, " ")
-                .Replace("\"", "'")
-                .Replace("{", "-")
-                .Replace("}", "-");
+                .Replace("\"", "'");
+        }
+
+        // Wraps characters that SendKeys treats as commands (Shift, Ctrl, Alt, Enter, grouping)
+        // in braces so they get typed literally.
+        private string EscapeSendKeys(string input)
+        {
+            var sb = new System.Text.StringBuilder(input.Length);
+
+            foreach (char c in input)
+            {
+                if ("+^%~()[]{}".IndexOf(c) >= 0)
+                    sb.Append('{').Append(c).Append('}');
+                else
+                    sb.Append(c);
+            }
+
+            return sb.ToString();
         }
 
         private void WriteHeader(StreamWriter sw)
@@ -128,7 +143,7 @@ namespace ScriptScripter
                     int remaining = text.Length - index;
                     int take = Math.Min(chunkSize, remaining);
 
-                    string chunk = text.Substring(index, take);
+                    string chunk = EscapeSendKeys(text.Substring(index, take));
 
                     sw.WriteLine($"WshShell.SendKeys \"{chunk}\"");
                     sw.WriteLine($"WScript.Sleep {delay}");
